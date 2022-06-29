@@ -1,0 +1,31 @@
+{
+  "name": "quantity",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest-environment-jsdom"
+  },
+  "jest": {
+    "verbose": true,
+    "testEnvironment": "jsdom",
+    "automock": false,
+    "moduleFileExtensions": [
+        "js"
+    ],
+    "setupFilesAfterEnv": [
+        "@testing-library/jest-dom/extend-expect"
+    ]
+},
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.18.6",
+    "@babel/preset-env": "^7.18.6",
+    "@testing-library/jest-dom": "^5.16.4",
+    "babel-jest": "^28.1.2",
+    "jest": "^28.1.2",
+    "jest-environment-jsdom": "^28.1.2",
+    "parcel": "^2.6.2"
+  }
+}
